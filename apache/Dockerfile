@@ -65,8 +65,8 @@ VOLUME /data
 VOLUME /var/www/html/data
 
 # Define Mautic version and expected SHA1 signature
-ENV MAUTIC_VERSION 4.3.1
-ENV MAUTIC_SHA1 6de39c8e131658a57656adf470fbceeb0451ffa1
+ENV MAUTIC_VERSION 4.4.0
+ENV MAUTIC_SHA1 5a19eb5186ae80a4bcff892607581e5569686fbf
 
 # By default enable cron jobs
 ENV MAUTIC_RUN_CRON_JOBS true
